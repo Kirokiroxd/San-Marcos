@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Oficinas - Turnos</title>
+</head>
+<body>
+    <h1>Listado de Oficinas</h1>
+    <ul>
+        {% for oficina in oficinas %}
+            <li>{{ oficina[1] }} - {{ oficina[2] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html><a href="/registrar_cliente"> + Registrar Cliente</a><br>
+<a href="/registrar_turno">🗓️ Registrar Turno</a>
